@@ -1,0 +1,45 @@
+// components/Services.tsx
+
+export default function Services() {
+  return (
+    <section className="py-16 bg-gray-100">
+      <div className="max-w-7xl mx-auto px-6">
+        <h2 className="text-3xl font-bold text-center mb-10">
+          Nuestros Servicios
+        </h2>
+
+        <div className="grid md:grid-cols-3 gap-8">
+          <div className="bg-white p-6 rounded-xl shadow">
+            <h3 className="text-xl font-semibold mb-2">
+              Cubiertas Metálicas
+            </h3>
+            <p>
+              Instalación profesional de cubiertas metálicas para proyectos
+              residenciales, comerciales e industriales en Bogotá.
+            </p>
+          </div>
+
+          <div className="bg-white p-6 rounded-xl shadow">
+            <h3 className="text-xl font-semibold mb-2">
+              Cubiertas Plásticas
+            </h3>
+            <p>
+              Montaje de cubiertas en PVC, policarbonato y otros materiales
+              plásticos de alta calidad.
+            </p>
+          </div>
+
+          <div className="bg-white p-6 rounded-xl shadow">
+            <h3 className="text-xl font-semibold mb-2">
+              Cielorrasos
+            </h3>
+            <p>
+              Instalación de cielorrasos de todo tipo con acabados modernos y
+              durables.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
